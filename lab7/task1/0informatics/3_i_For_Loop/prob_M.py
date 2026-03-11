@@ -1,3 +1,9 @@
-x = input()
+N = int(input())
+count = 0
 
-for i 
+for i in range(N):
+    x = int(input())
+    if(x == 0):
+        count += 1
+
+print(count)
